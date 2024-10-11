@@ -1,0 +1,208 @@
+
+
+@font-face {
+    font-family: "Zain";
+    src: url('../zain/Zain-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+  }
+  
+  @font-face {
+    font-family: "Zain";
+    src: url('../zain/Zain-Light.ttf') format('truetype');
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: "Zain";
+    src: url('../zain/Zain-Regular.ttf') format('truetype');
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: "Zain";
+    src: url('../zain/Zain-Bold.ttf') format('truetype');
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: "Zain";
+    src: url('../zain/Zain-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+  }
+  
+  @font-face {
+    font-family: "Zain";
+    src: url('../zain/Zain-Black.ttf') format('truetype');
+    font-weight: 900;
+  }
+ 
+  
+ /*
+ الي فيها تعليق يعني درست في المحاضرة 5
+ */
+body {
+    padding: 0;
+    background-color: #F0F0F0;
+    font-family: "Zain"; /* */
+}
+nav {
+    margin: 35px 40px;
+    background-color: #F5F5F5;
+    height: 78px;
+    border-radius: 20px;
+    display: flex; /* */
+    align-items: center;
+    justify-content: space-between; /***/
+    padding: 16px 25px;
+    box-shadow: 0px 8px  16px 0px rgba(0, 0, 0, 0.10); /* */
+    box-sizing: content-box; /* */
+}
+h2{
+    font-size: 96px; /* */
+    box-sizing: border-box; /* */
+    margin: 0;
+}
+h3 , h4{
+    margin: 0;
+    font-weight: 800; /* */
+    font-size: 36px; /* */
+}
+h4{
+    color: #FAFAFA;
+}
+ul {
+    list-style-type: none; /* */
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: inline; /* */
+    margin-left: 40px;
+}
+li a {
+    color: #A0A0A0;
+    text-decoration: none; /* */
+    font-weight: 700; /* */
+    font-size: 32px; /* */
+}
+hr{
+    margin: 35px 40px;
+}
+img{
+    width: 388px;
+    height: 397px;
+}
+.red-liner {
+    background: linear-gradient(149deg, #F42C37 5.14%, #FD4A55 94.73%);
+}
+.yellow-liner{
+    background: linear-gradient(149deg, #FDC62E 5.14%, #FDC62E 94.73%);
+}
+.black-liner{
+    background: linear-gradient(149deg, #222 5.14%, #343434 94.73%);
+}
+.salver-liner{
+    background: linear-gradient(149deg, #C0C0C0 5.14%, #DCDCDC 94.73%);
+}
+.green-liner{
+    background: linear-gradient(149deg, #2ED571 5.14%, #2BD273 94.73%);
+}
+.blue-liner{
+    background: linear-gradient(149deg, #127CEF 5.14%, #1891FE 94.73%);
+}
+.blocks {
+    padding: 0;
+    margin: 35px 40px;
+}
+.extra-large-block {
+    height: 500px;
+    border-radius: 20px;
+    background: linear-gradient(to top right, #A0A0A0 0%, #DCDCDC 50%);
+    padding: 76px 70px;
+    box-sizing: border-box; /* */
+}
+.group {
+    background-color: #F52C34;
+    width: 260px;
+    border-radius: 50px;
+    text-align: center; /* */
+}
+.shadow {
+    text-shadow: 0px 18px 15px rgba(0, 0, 0, 0.15); /* */
+}
+.row-blocks{
+    margin-top: 35px;
+    color: #FAFAFA;
+    display: flex; /* */
+    gap: 35px; /***/
+}
+.large-block , .small-block{
+    width: 680px;
+    height: 361px;
+    border-radius: 20px;
+    padding: 16px 70px;
+}
+.small-block{
+    width: 340px;
+}
+.blog-block{
+    margin: 0 40px;
+    padding: 30px 70px;
+    color: #FAFAFA; 
+    border-radius: 20px;
+    height: 790px;
+    box-sizing: border-box; /* */
+}
+.blog-text{
+    font-size: 42px; /* */
+    text-indent: 30px;
+    overflow:hidden;
+}
+.float img {
+    float: right; /* */
+}
+.float p {
+    font-size: 40px;
+    text-indent: 30px;
+    margin: 30px 50px;
+    white-space:pre-line; /* */ 
+}
+.table {
+    color: #FAFAFA;
+    padding: 30px 70px;
+    border-radius: 20px; 
+    margin: 0 40px;
+    overflow: hidden; /* */
+}
+table {
+    margin-top: 40px;
+    width: 100%;
+    border-collapse: collapse; /* */
+    border-radius: 20px;
+}
+th, td {
+    font-size: 24px; /* */
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+tr {
+    border-radius: 20px;
+}
+.center-col {
+    text-align: center;  /* */
+}
+table:hover .delete-tr {
+    visibility: visible;  /* */
+}
+.delete-tr {
+    visibility: hidden;  /* */
+}
+li a:hover{  /* */
+    color: #000;
+}
+a:visited{  /* */
+    color: #A0A0A0;
+}
+.before-td::before{  /* */
+    content: "الطالب "; /* */
+}
