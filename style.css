@@ -20,13 +20,13 @@
   
   @font-face {
     font-family: "Zain";
-    src: url('../zain/Zain-Bold.ttf') format('truetype');
+    src: url('/zain/Zain-Bold.ttf') format('truetype');
     font-weight: 700;
   }
   
   @font-face {
     font-family: "Zain";
-    src: url('../zain/Zain-ExtraBold.ttf') format('truetype');
+    src: url('/zain/Zain-ExtraBold.ttf') format('truetype');
     font-weight: 800;
   }
   
